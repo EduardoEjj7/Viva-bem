@@ -1,0 +1,97 @@
+/* Estilos para Detalhes de Funcionário - Redesign Dark & Moderno */
+.home-container {
+  padding: 60px 40px;
+  text-align: center;
+  background-color: #282c34;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1400px;
+  font-family: 'Inter', sans-serif;
+  color: #f0f0f0;
+}
+
+.home-container h1 {
+  color: #61dafb;
+  margin-bottom: 25px;
+  font-size: 3.5rem;
+  font-weight: 800;
+  text-shadow: 0 0 15px rgba(97, 218, 251, 0.6);
+}
+
+.home-container p {
+  color: #bdc3c7;
+  margin-bottom: 50px;
+  font-size: 1.2rem;
+  line-height: 1.7;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 35px;
+  margin-top: 50px;
+  padding: 0 20px;
+}
+
+.card {
+  background-color: #31353d;
+  border: 1px solid #4a4f58;
+  border-radius: 10px;
+  padding: 30px;
+  text-align: left;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5), 0 0 20px rgba(97, 218, 251, 0.3);
+}
+
+.card h3 {
+  color: #00e676;
+  margin-bottom: 15px;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.card p {
+  color: #e0e0e0;
+  font-size: 1.05rem;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #00e676;
+  color: #1a1a1a;
+  padding: 12px 25px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 230, 118, 0.3);
+  margin-top: auto;
+}
+
+.btn:hover {
+  background-color: #00c853;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(0, 230, 118, 0.5);
+}
+.btn:active {
+  background-color: #00bfa5;
+  transform: translateY(0);
+  box-shadow: 0 4px 10px rgba(0, 230, 118, 0.3);
+} 

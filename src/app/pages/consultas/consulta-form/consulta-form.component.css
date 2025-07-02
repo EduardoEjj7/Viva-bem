@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+.form-container {
+  padding: 40px;
+  background-color: #f4f8fb; /* fundo claro */
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+  margin-top: 40px;
+  max-width: 650px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #dce3ea;
+  font-family: 'Inter', sans-serif;
+}
+
+.form-container h2 {
+  color: #00b8a9; /* Verde água forte */
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: 700;
+  text-shadow: 0 0 8px rgba(0, 184, 169, 0.2);
+}
+
+.form-group {
+  margin-bottom: 25px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 10px;
+  color: #333;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.form-group input[type="text"],
+.form-group input[type="date"],
+.form-group input[type="time"],
+.form-group select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #c5d3de;
+  border-radius: 8px;
+  font-size: 1.05rem;
+  background-color: #ffffff;
+  color: #333;
+  transition: all 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+  border-color: #00b8a9;
+  box-shadow: 0 0 0 0.3rem rgba(0, 184, 169, 0.2);
+  outline: none;
+  background-color: #f1fdfb;
+}
+
+.form-actions {
+  text-align: center;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.btn-save {
+  background-color: #00b894;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 30px;
+
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 184, 148, 0.3);
+}
+
+.btn-save:hover {
+  background-color: #00997a;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(0, 184, 148, 0.5);
+}
+
+.btn-cancel {
+  background-color: #ff6b6b;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(255, 107, 107, 0.3);
+}
+
+.btn-cancel:hover {
+  background-color: #e55050;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(255, 107, 107, 0.5);
+}
